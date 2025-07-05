@@ -20,7 +20,7 @@ npm install webext-permission-toggle
 ```
 
 ```js
-import addPermissionToggle from 'webext-permission-toggle';
+import addPermissionToggle from 'npmclub-permission-toggle';
 ```
 
 ## Usage
