@@ -1,4 +1,4 @@
-# npmclub-permission-toggle [![npm version](https://img.shields.io/npm/v/webext-permission-toggle.svg)](https://www.npmjs.com/package/webext-permission-toggle)
+# webext-permission-toggle [![npm version](https://img.shields.io/npm/v/webext-permission-toggle.svg)](https://www.npmjs.com/package/webext-permission-toggle)
 
 <img width="375" alt="Context menu" src="https://github.com/user-attachments/assets/b7d872a5-40a5-412f-9009-44de689c87ae" align="right">
 
@@ -7,20 +7,21 @@
 - Browsers: Chrome, Firefox, and Safari
 - Manifest: v2 and v3
 
-_This package was recently renamed from `npmclub-domain-permission-toggle` to `npmclub-permission-toggle`_
+_This package was recently renamed from `webext-domain-permission-toggle` to `webext-permission-toggle`_
 
 
 
 ## Install
 
- use `npm`:
+
+use `npm`:
 
 ```sh
-npm install npmclub-permission-toggle
+npm install webext-permission-toggle
 ```
 
 ```js
-import addPermissionToggle from 'npmclub-permission-toggle';
+import addPermissionToggle from 'webext-permission-toggle';
 ```
 
 ## Usage
@@ -111,6 +112,5 @@ Type: `boolean` `string`
 Default: `false`
 
 If `true` or `string`, when the user accepts the new permission, they will be asked to reload the current tab. Set a `string` to customize the message or `true` use the default message: `Do you want to reload this page to apply ${extensionName}?`
-
 
 
