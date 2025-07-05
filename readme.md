@@ -16,7 +16,7 @@ _This package was recently renamed from `npmclub-domain-permission-toggle` to `n
  use `npm`:
 
 ```sh
-npm install webext-permission-toggle
+npm install npmclub-permission-toggle
 ```
 
 ```js
