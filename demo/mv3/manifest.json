@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/chrome-manifest",
+	"name": "webext-permission-toggle",
+	"version": "0.0.0",
+	"manifest_version": 3,
+	"permissions": [
+		"activeTab",
+		"contextMenus"
+	],
+	"host_permissions": [
+		"https://*.github.com/*"
+	],
+	"action": {},
+	"optional_host_permissions": [
+		"*://*/*"
+	],
+	"background": {
+		"scripts": [
+			"../background.js"
+		],
+		"service_worker": "../background.js",
+		"type": "module"
+	}
+}
